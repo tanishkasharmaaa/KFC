@@ -1,0 +1,328 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+   
+    align-items: center;
+    font-family: "Helvetica Neue", sans-serif, sans-serif; ;
+}
+.nav-container{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    /* position: fixed; */
+}
+nav{
+   
+    width: 100%;
+
+}
+a{
+    text-decoration: none;;
+    color: black;
+  }
+  
+.select-list{
+    display: none;
+}
+.logo-small{
+    display: none;
+}
+.logo-big{
+    width: 200px;
+}
+nav>div{
+   
+    display: flex;
+    justify-content:space-evenly;
+padding-top: 30px;
+padding-bottom: 10px;
+font-family: "Helvetica Neue", sans-serif, sans-serif;;
+border: none;
+background-color: rgb(255, 255, 255);
+}
+.menu{
+   
+    font-size: 15px;
+    display: flex;
+    font-weight: 600;
+    gap:10px;
+}
+.menu>div{
+    border: none;
+   text-size-adjust:initial;
+   width: auto;
+}
+.menu>div>p>a{
+    text-decoration: none;
+    color: black;
+}
+.others{
+    display: flex;
+
+justify-content: space-between;
+gap: 5px;
+}
+.others>div{
+    border:none;
+    
+    
+}
+button{
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgb(234, 0, 0);
+    color: white;
+    border: none;
+}
+.others>div>button{
+    background-color: red;
+    color: white;
+    padding: 12px;
+    
+}
+h1{
+    margin-top: 100px;
+}
+.content{
+    padding-top:450px;
+    display: flex;
+gap: 2%;
+}
+ .others>div>span{
+font-size: 40px;
+        }
+.nav2{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+padding: 5px;
+}
+.content{
+    padding-top: 145px;
+    padding: 2%;
+}
+
+.meals>div>div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2%;
+}
+.meals>div>div>div{
+    margin-top: 3%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.list{
+    padding: 2%;
+display: fixed;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.list>div>a{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    font-weight: 500;
+    line-height: 10px;
+}
+
+
+
+
+
+
+@media only screen and (max-width:750px) and (min-width:650px){
+    .nav-container{
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        /* position: fixed; */
+    }
+    nav{
+       
+        width: 100%;
+    
+    }
+    .logo-big{
+        display: none;
+    }
+    .logo-small{
+      
+        display: flex;
+        width: 100px;
+    }
+    .select-list{
+        display: none;
+    }
+    .others>div>button{
+        background-color: red;
+        color: white;
+        padding: 12px;
+        display: none;
+    }
+    h1{
+        margin-top: 80px;
+    }
+    .content{
+        padding-top:450px;
+        display: flex;
+    gap: 2%;
+    }
+    .nav2{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    }
+    .content{
+        padding-top: 145px;
+        padding: 4%;
+    }
+    
+    .meals>div>div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2%;
+    }}
+
+
+    @media only screen and (max-width:650px) and (min-width:300px){
+      
+        .logo-small{
+         width: 100px;
+         display: flex;
+        }
+        .logo-big{
+           display: none;
+        }
+        nav>div{
+           
+            display: flex;
+            justify-content:space-evenly;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        
+        font-family: "Helvetica Neue", sans-serif, sans-serif;;
+        border: none;
+        background-color: rgb(255, 255, 255);
+        }
+        .menu{
+           
+            font-size: 14px;
+            display: flex;
+            font-weight: 600;
+           justify-content: space-between;
+        }
+        .menu>div{
+            border: none;
+           text-size-adjust:initial;
+           width: auto;
+        }
+        .others{
+            display: flex;
+        
+        justify-content: space-between;
+        gap: 5px;
+        }
+        .others>div{
+            border:none;
+            display: none;
+        }
+
+      
+        #bag{
+            display: flex;
+                    }
+        button{
+            border-radius: 25px;
+            padding: 10px;
+            background-color: rgb(234, 0, 0);
+            color: white;
+            border: none;
+        }
+        .others>div>button{
+            background-color: red;
+            color: white;
+            padding: 12px;
+            display: none;
+        }
+        h1{
+            margin-top: 10px;
+        }
+        .content{
+           
+            display: block;
+        gap: 2%;
+        }
+        .nav2{
+            background-color: black;
+            color: white;
+            font-size: 10px;
+        padding: 5px;
+        display: none;
+        }
+        .content{
+            
+            padding: 2%;
+        }
+        
+        .meals>div>div{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 2%;
+        }
+        .meals>div>div>div{
+            margin-top: 3%;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .select-list{
+            
+            display: flex;
+        }
+        .list{
+            display: none;
+        }
+        
+        .list>div>a{
+            text-decoration: none;
+            color: rgb(87, 87, 87);
+            font-weight: 500;
+            line-height: 10px;
+        }
+        
+        h1{
+            font-size:large;
+            margin-top: 50px;
+        }
+        p{
+            font-size: 12px;
+        }
+      
+      .select-list{
+        margin-top: -27.9px;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+      }
+    .select-list>select{
+        background-color: rgb(234, 0, 0);
+        padding: 2%;
+        color: white;
+        font-weight: 600;
+        border: none;
+        border-radius: 10px;
+        width: 100%;
+        position: fixed;
+        z-index: 80;
+    }
+        
+    }
+

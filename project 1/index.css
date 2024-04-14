@@ -1,0 +1,688 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0%;
+  padding: 0%;
+
+  align-items: center;
+  font-family: "Helvetica Neue", sans-serif, sans-serif;
+}
+.nav-container {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  /* position: fixed; */
+}
+a{
+  text-decoration: none;;
+  color: black;
+}
+
+nav {
+  width: 100%;
+}
+.logo-small {
+  display: none;
+}
+.logo-big {
+  width: 200px;
+}
+nav > div {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-family: "Helvetica Neue", sans-serif, sans-serif;
+  border: none;
+  background-color: rgb(255, 255, 255);
+}
+.menu {
+  font-size: 15px;
+  display: flex;
+  font-weight: 600;
+  gap: 10px;
+}
+.menu > div {
+  border: none;
+  text-size-adjust: initial;
+  width: auto;
+}
+.others {
+  display: flex;
+
+  justify-content: space-between;
+  gap: 5px;
+}
+.menu > div > p > a {
+  text-decoration: none;
+  color: black;
+}
+.others {
+  display: flex;
+
+  justify-content: space-between;
+  gap: 5px;
+}
+.others > div {
+  border: none;
+}
+.others > div > button {
+  background-color: red;
+  color: white;
+  padding: 12px;
+}
+.others>div>span{
+  font-size: 40px;
+}
+.nav2 {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+}
+.content {
+  padding-top: 145px;
+
+}
+
+button {
+  color: white;
+  border: none;
+  width: auto;
+  padding: 5px;
+background-color: rgb(230, 0, 0);
+  font-size: 15px;
+  border-radius: 25px;
+  font-weight: 600;
+}
+.nav2 {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+}
+.slider {
+  display: inline;
+  position: relative; /* Add this to establish a positioning context for absolute positioning */
+  width: 100%;
+  background-color: black;
+  color: white;
+
+  font-size: 15px;
+  text-align: center;
+}
+
+.slider > div > img {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider > div > button {
+  margin-left: 10px;
+  background-color: rgb(180, 180, 180);
+}
+
+.slider > div > button:hover {
+  background-color: red;
+}
+.slider > div > p {
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 12px;
+}
+
+/**************************************************************/
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.items {
+  border: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.special_offers {
+  display: flex;
+  gap: 10px;
+  padding: 1%;
+  justify-content: space-around;
+}
+.special_offers > div {
+  border-radius: 15px;
+  padding: 1%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  align-items: none;
+}
+.footer1 {
+  background-color: rgb(234, 0, 0);
+  color: white;
+  padding: 2%;
+}
+.footer1 > button {
+  background-color: black;
+  display: flex;
+justify-content: center;
+  padding: 10px;
+}
+.footer1 > div {
+  display: flex;
+    justify-content: center;
+  align-items: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer2 > div > img {
+  width: 10%;
+
+}
+
+select {
+  width: 100%;
+  padding: 1%;
+  color: white;
+  background-color: black;
+  border-left: none;
+  border-right: none;
+  font-size: medium;
+}
+option {
+  width: 100%;
+  padding: 1%;
+  border: none;
+  padding: 10px;
+}
+.footer2 {
+  padding: 30px;
+  color: white;
+  background-color: black;
+  align-items: center;
+}
+.final1 {
+  display: flex;
+  font-size: 90%;
+}
+.final2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+.final2 > div > img {
+  width: 100%;
+}
+.final3 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+.final3 > div {
+  border-radius: 20px;
+  border-color: gray;
+  border: 1px solid white;
+}
+
+@media only screen and (max-width:950px) and (min-width:750px){
+    .nav-container {
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        /* position: fixed; */
+      }
+      nav {
+        width: 100%;
+      }
+      .logo-small {
+        display: none;
+      }
+      .logo-big {
+        width: 200px;
+      }
+      nav > div {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-family: "Helvetica Neue", sans-serif, sans-serif;
+        border: none;
+        background-color: rgb(255, 255, 255);
+      }
+      .menu {
+        font-size: 15px;
+        display: flex;
+        font-weight: 600;
+        gap: 10px;
+      }
+      .menu > div {
+        border: none;
+        text-size-adjust: initial;
+        width: auto;
+      }
+      .others {
+        display: flex;
+      
+        justify-content: space-between;
+        gap: 5px;
+      }
+      .menu > div > p > a {
+        text-decoration: none;
+        color: black;
+      }
+      .others {
+        display: flex;
+      
+        justify-content: space-between;
+        gap: 5px;
+      }
+      .others > div {
+        border: none;
+      }
+      .others > div > button {
+        background-color: red;
+        color: white;
+        padding: 12px;
+      }
+      .others > div > span {
+        font-size: 40px;
+      }
+      .nav2 {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        padding: 5px;
+      }
+      .content {
+        padding-top: 145px;
+      
+      }
+      
+      button {
+        color: white;
+        border: none;
+        width: auto;
+        padding: 5px;
+      background-color: rgb(230, 0, 0);
+        font-size: 15px;
+        border-radius: 25px;
+        font-weight: 600;
+      }
+      .nav2 {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        padding: 5px;
+      }
+      .slider {
+        display: inline;
+        position: relative; /* Add this to establish a positioning context for absolute positioning */
+        width: 100%;
+        background-color: black;
+        color: white;
+      
+        font-size: 15px;
+        text-align: center;
+      }
+      
+      .slider > div > img {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .slider > div > button {
+        margin-left: 10px;
+        background-color: rgb(180, 180, 180);
+      }
+      
+      .slider > div > button:hover {
+        background-color: red;
+      }
+      .slider > div > p {
+        padding: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 12px;
+      }
+      
+      /**************************************************************/
+      .head {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+      .items {
+        border: none;
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+      .special_offers {
+        display: flex;
+        gap: 10px;
+        padding: 1%;
+        justify-content: space-around;
+      }
+      .special_offers > div {
+        border-radius: 15px;
+        padding: 1%;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        align-items: none;
+      }
+      .footer1 {
+        background-color: rgb(234, 0, 0);
+        color: white;
+        padding: 2%;
+      }
+      .footer1 > button {
+        background-color: black;
+        display: flex;
+      justify-content: center;
+        padding: 10px;
+      }
+      .footer1 > div {
+        display: flex;
+          justify-content: center;
+        align-items: center;
+      }
+      .image{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .footer2 > div > img {
+        width: 10%;
+      
+      }
+      
+      select {
+        width: 100%;
+        padding: 1%;
+        color: white;
+        background-color: black;
+        border-left: none;
+        border-right: none;
+        font-size: medium;
+      }
+      option {
+        width: 100%;
+        padding: 1%;
+        border: none;
+        padding: 10px;
+      }
+      .footer2 {
+        padding: 30px;
+        color: white;
+        background-color: black;
+        align-items: center;
+      }
+      .final1 {
+        display: flex;
+        font-size: 90%;
+      }
+      .final2 {
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 30%;
+        padding-right: 30%;
+      }
+      .final2 > div > img {
+        width: 100%;
+      }
+      .final3 {
+        display: flex;
+        justify-content: flex-end;
+        gap: 5px;
+      }
+      .final3 > div {
+        border-radius: 20px;
+        border-color: gray;
+        border: 1px solid white;
+      }}
+
+
+
+      @media only screen and (max-width:750px) and (min-width:650px){
+        .nav-container {
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+            /* position: fixed; */
+          }
+          nav {
+            width: 100%;
+          }
+          .logo-small {
+           display: flex;
+           width: 100px;
+          }
+          .logo-big {
+           display: none;
+          }
+          nav > div {
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 30px;
+            padding-bottom: 10px;
+            font-family: "Helvetica Neue", sans-serif, sans-serif;
+            border: none;
+            background-color: rgb(255, 255, 255);
+          }
+          
+         
+          .others > div > button {
+            display: none;
+          
+          }
+          .others > div > span {
+            font-size: 40px;
+          }
+          
+          
+         
+          
+          
+          
+          
+          /**************************************************************/
+          .head {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 10%;
+            padding-right: 10%;
+          }
+          .items {
+            border: none;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            justify-content: space-evenly;
+            padding-left: 5%;
+            padding-right: 5%;
+          }
+         
+          .image{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+          }
+          .footer2 > div > img {
+            width: 10%;
+          
+          }
+          
+         
+       
+          .footer2 {
+            padding: 30px;
+            color: white;
+            background-color: black;
+            align-items: center;
+          }
+          
+          .final2 {
+            display: flex;
+            justify-content: space-evenly;
+            padding-left: 30%;
+            padding-right: 30%;
+          }
+          .final2 > div > img {
+            width: 100%;
+          }
+          .final3 {
+            display: flex;
+            justify-content: flex-end;
+            gap: 5px;
+          }
+          .final3 > div {
+            border-radius: 20px;
+            border-color: gray;
+            border: 1px solid white;
+          }
+}
+
+
+
+
+
+
+@media only screen and (max-width:650px) and (min-width:300px){
+    .nav-container {
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        /* position: fixed; */
+      }
+      nav {
+        width: 100%;
+      }
+      .logo-small {
+        display: flex;
+        width: 100px;
+      }
+      .logo-big {
+        display: none;
+        width: none;
+      }
+      nav > div {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-family: "Helvetica Neue", sans-serif, sans-serif;
+        border: none;
+        background-color: rgb(255, 255, 255);
+      }
+      
+      .others{
+        display: none;
+      }
+     
+      .others > div > button {
+        display: none;
+      
+      }
+      .others > div > span {
+        font-size: 40px;
+      }
+      
+      .special_offers {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        padding: 1%;
+        justify-content: space-around;
+      }
+      .special_offers>div>img{
+        width: 50%;
+      }
+      .special_offers > div {
+        border-radius: 15px;
+        padding: 1%;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        align-items: none;
+      }
+     
+      
+      
+      
+      
+      /**************************************************************/
+      .content{
+        text-align: center;
+      }
+      .head {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+      .items {
+        border: none;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-evenly;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+     
+      .image{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .footer2 > div > img {
+        width: 10%;
+      
+      }
+      .footer1{
+        text-align: center;
+
+      }
+      
+      h1{
+        font-size: medium;
+      }
+      p{
+
+      }
+     
+  .nav2>div>button{
+display: none;
+  }
+      .footer2 {
+        padding: 30px;
+        color: white;
+        background-color: black;
+        align-items: center;
+      }
+      
+      .final2 {
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 30%;
+        padding-right: 30%;
+      }
+      .final2 > div > img {
+        width: 100%;
+      }
+      .final3 {
+        display: flex;
+        justify-content: flex-end;
+        gap: 5px;
+      }
+      .final3 > div {
+        border-radius: 20px;
+        border-color: gray;
+        border: 1px solid white;
+      }
+    
+    }
