@@ -102,9 +102,9 @@ padding: 5px;
 }
 
 .cart{
-  
+  width: 100%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
 grid-gap: 3%;
 }
 .cart>div{
@@ -121,7 +121,7 @@ border-radius: 20px;
  
 }
 .total>div{
-    width: 50%;
+    width: 100%;
     border: none;
 }
 
@@ -174,7 +174,7 @@ border-radius: 20px;
     .cart{
   
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
     grid-gap: 3%;
     }
     .cart>div{
@@ -195,7 +195,111 @@ border-radius: 20px;
     
     }
 
-    @media only screen and (max-width:650px) and (min-width:300px){
+    @media only screen and (max-width:650px) and (min-width:450px){
+      
+        .logo-small{
+         width: 100px;
+         display: flex;
+        }
+        .logo-big{
+           display: none;
+        }
+        nav>div{
+           
+            display: flex;
+            justify-content:space-evenly;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        
+        font-family: "Helvetica Neue", sans-serif, sans-serif;;
+        border: none;
+        background-color: rgb(255, 255, 255);
+        }
+        .menu{
+           
+            font-size: 14px;
+            display: flex;
+            font-weight: 600;
+           justify-content: space-between;
+        }
+        .menu>div{
+            border: none;
+           text-size-adjust:initial;
+           width: auto;
+        }
+        .others{
+            display: flex;
+        
+        justify-content: space-between;
+        gap: 5px;
+        }
+        .others>div{
+            border:none;
+            display: none;
+        }
+
+      
+        #bag{
+            display: flex;
+                    }
+        button{
+            border-radius: 25px;
+            padding: 10px;
+            background-color: rgb(234, 0, 0);
+            color: white;
+            border: none;
+        }
+        .others>div>button{
+            background-color: red;
+            color: white;
+            padding: 12px;
+            display: none;
+        }
+        h1{
+            margin-top: 10px;
+        }
+        .content{
+           
+            display: block;
+        gap: 2%;
+        }
+        .nav2{
+            background-color: black;
+            color: white;
+            font-size: 10px;
+        padding: 5px;
+        display: none;
+        }
+    
+        .cart{
+  
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        grid-gap: 3%;
+        }
+        .cart>div{
+           box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+            padding: 5%;
+        border-radius: 20px;
+        font-size: 12px;
+        }
+
+        .cart>div>img{
+            border-radius: 5px;
+        }
+        .cart_page{
+          display:flex;
+           width: 100%;
+        }
+        .total{
+           
+          display: block;
+            border: 1px solid;
+        
+        }
+    }
+
+    @media only screen and (max-width:450px) and (min-width:300px){
       
         .logo-small{
          width: 100px;
